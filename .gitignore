@@ -1,0 +1,9 @@
+*.d
+*.o
+*.so
+bin/*
+plugin/*.dsp
+source/.plugin-info
+source/DistrhoPluginInfo.h
+source/FaustGeneratedPlugin.cpp
+source/build/
