@@ -48,7 +48,7 @@ function run_faustpp() {
     plugin/*.dsp
 }
 
-echo "NAME = ${NAME}" > source/.plugin-info
+echo "NAME = ${SYMBOL}" > source/.plugin-info
 
 run_faustpp -a source/DistrhoPluginInfo.h.in -o source/DistrhoPluginInfo.h
 run_faustpp -a source/FaustGeneratedPlugin.cpp.in -o source/FaustGeneratedPlugin.cpp
